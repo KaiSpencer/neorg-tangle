@@ -1,0 +1,13 @@
+@code lua
+require'test'
+@end
+
+@code python
+import datetime
+print(datetime.datetime)
+@end
+
+@code lua
+require 'require hello'
+print 'test print'
+@end
